@@ -330,7 +330,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 418.0, 753.0, 127.63744854927063, 50.371570913467394 ],
+					"patching_rect" : [ 420.643133401870728, 749.0, 127.63744854927063, 50.371570913467394 ],
 					"viewvisibility" : 1
 				}
 
@@ -1332,7 +1332,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.0, 1180.0, 84.736843347549438, 22.0 ],
-					"text" : "size 400."
+					"text" : "size 500."
 				}
 
 			}
@@ -1747,7 +1747,44 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 438.372377031158521, 212.211658600025203, 759.672788586771048, 212.211658600025203, 759.672788586771048, 165.03441977652551, 774.723229348659515, 165.03441977652551 ],
+					"order" : 1,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"midpoints" : [ 438.372377031158521, 212.211658600025203, 540.132750984584845, 212.211658600025203, 540.132750984584845, 165.03441977652551, 553.143133401870728, 165.03441977652551 ],
+					"order" : 3,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
+					"order" : 4,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"midpoints" : [ 438.372377031158521, 212.211658600025203, 884.027667906438865, 212.211658600025203, 884.027667906438865, 165.03441977652551, 899.682999789714813, 165.03441977652551 ],
+					"order" : 0,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"midpoints" : [ 438.372377031158521, 212.211658600025203, 658.144108530437506, 212.211658600025203, 658.144108530437506, 165.03441977652551, 675.415859341621399, 165.03441977652551 ],
+					"order" : 2,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1879,35 +1916,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ADSR_Obj.maxpat",
-				"bootpath" : "~/Documents/McGill/MUMT619/NIME",
+				"bootpath" : "~/Documents/McGill/Sonic Touch/Haptic-Toolkit",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Automation_Obj.maxpat",
-				"bootpath" : "~/Documents/McGill/MUMT619/NIME",
+				"bootpath" : "~/Documents/McGill/Sonic Touch/Haptic-Toolkit",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Edit_Buffer_Obj.maxpat",
-				"bootpath" : "~/Documents/McGill/MUMT619/NIME",
+				"bootpath" : "~/Documents/McGill/Sonic Touch/Haptic-Toolkit",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "haptic_Buffer_Obj.maxpat",
-				"bootpath" : "~/Documents/McGill/MUMT619/NIME",
+				"bootpath" : "~/Documents/McGill/Sonic Touch/Haptic-Toolkit",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wave_Obj.maxpat",
-				"bootpath" : "~/Documents/McGill/MUMT619/NIME",
+				"bootpath" : "~/Documents/McGill/Sonic Touch/Haptic-Toolkit",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
