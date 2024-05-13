@@ -1384,7 +1384,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.0, 1180.0, 84.736843347549438, 22.0 ],
-					"text" : "size 250."
+					"text" : "size 300."
 				}
 
 			}
