@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 49.0, -846.0, 988.0, 728.0 ],
+		"rect" : [ 327.0, -826.0, 988.0, 728.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 356.0, 211.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-11",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 300.0, 238.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"items" : [ "ADSR", ",", "ASR", ",", "Exponential", "Decay", ",", "DIY" ],
@@ -201,7 +226,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -214,7 +239,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -229,7 +254,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 116.0, 99.0, 22.0 ],
+					"patching_rect" : [ 36.833330631256104, 119.854028347187068, 99.0, 22.0 ],
 					"text" : "r durationMillisec"
 				}
 
@@ -248,7 +273,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 1.0, 0, 0.0, 500.0, 0.0, 0, -0.605 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.382644571463267, 58.953907895595464, 1.0, 0, 0.3, 191.932631299850812, 0.583476242264812, 0, -0.35, 386.081567470063533, 0.583476242264812, 0, 0.0, 500.0, 0.0, 0, 0.72 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
 					"domain" : 500.0,
@@ -315,7 +340,24 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
+					"source" : [ "obj-111", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"order" : 0,
+					"source" : [ "obj-111", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
+					"order" : 2,
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -434,7 +476,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
